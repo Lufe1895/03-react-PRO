@@ -2,6 +2,7 @@ import React from 'react';
 
 import { Header } from './Header';
 import './page.css';
+import PageStories from './Page.stories';
 
 export interface PageProps {
   user?: {};
@@ -65,3 +66,5 @@ export const Page = ({ user, onLogin, onLogout, onCreateAccount }: PageProps) =>
     </section>
   </article>
 );
+
+export default Page;
